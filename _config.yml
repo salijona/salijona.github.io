@@ -97,9 +97,6 @@ publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
 scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-scholar:
-  last_name: [Dyrmishi]
-  first_name: [Salijona]
 work_url: # work page URL
 x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
@@ -307,8 +304,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Dyrmishi]
+  first_name: [Salijona]
 
   style: apa
   locale: en
