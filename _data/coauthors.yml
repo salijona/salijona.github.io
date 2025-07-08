@@ -1,34 +1,36 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"thibault":
+  - firstname: ["Thibault", "T.", "T. S.", "Thibault Simonetto"]
+    url: https://scholar.google.com/citations?user=4RhGnOoAAAAJ&hl=en&oi=ao
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"salah":
+  - firstname: ["Salah", "S.", "S. G.", "Salah Ghamizi"]
+    url: https://scholar.google.com/citations?user=UcvKgR0AAAAJ&hl=en&oi=ao
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"maxime":
+  - firstname: ["Maxime", "M.", "M. C.", "Maxime Cordy"]
+    url: https://maxcordy.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"mihaela":
+  - firstname: ["Mihaela", "M.", "M. S.", "Mihaela Stoian"]
+    url: https://mihaela-stoian.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"eleonora":
+  - firstname: ["Eleonora", "E.", "E. G.", "Eleonora Giunchiglia"]
+    url: https://scholar.google.com/citations?user=HAgGqScAAAAJ&hl=it
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"mohamed":
+  - firstname: ["Mohamed", "M.", "M. D.", "Mohamed Djilani"]
+    url: https://www.uni.lu/snt-en/people/mohamed-djilani/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"amnir":
+  - firstname: ["Amnir", "A.", "A. H.", "Amnir Hadachi"]
+    url: https://kodu.ut.ee/~hadachi/HomePage.html
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sherif":
+  - firstname: ["Sherif", "S.", "S. A.", "Sherif Sakr"]
+    url: https://dl.acm.org/doi/pdf/10.1145/3436208
+
+"radwa":
+  - firstname: ["Radwa", "R.", "R. E.", "Radwa Elshawi"]
+    url: https://scholar.google.com/citations?hl=en&user=RD5PdpwAAAAJ&view_op=list_works&sortby=pubdate
