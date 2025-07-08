@@ -1,36 +1,36 @@
-"thibault":
-  - firstname: ["Thibault", "T.", "T. S.", "Thibault Simonetto"]
+"simonetto":
+  - firstname: ["Thibault", "T."]
     url: https://scholar.google.com/citations?user=4RhGnOoAAAAJ&hl=en&oi=ao
 
-"salah":
-  - firstname: ["Salah", "S.", "S. G.", "Salah Ghamizi"]
+"ghamizi":
+  - firstname: ["Salah", "S."]
     url: https://scholar.google.com/citations?user=UcvKgR0AAAAJ&hl=en&oi=ao
 
-"maxime":
-  - firstname: ["Maxime", "M.", "M. C.", "Maxime Cordy"]
+"cordy":
+  - firstname: ["Maxime", "M."]
     url: https://maxcordy.github.io/
 
-"mihaela":
-  - firstname: ["Mihaela", "M.", "M. S.", "Mihaela Stoian"]
+"stoian":
+  - firstname: ["Mihaela", "M."]
     url: https://mihaela-stoian.github.io/
 
 
-"eleonora":
-  - firstname: ["Eleonora", "E.", "E. G.", "Eleonora Giunchiglia"]
+"giunchiglia":
+  - firstname: ["Eleonora", "E.",]
     url: https://scholar.google.com/citations?user=HAgGqScAAAAJ&hl=it
 
-"mohamed":
-  - firstname: ["Mohamed", "M.", "M. D.", "Mohamed Djilani"]
+"djilani":
+  - firstname: ["Mohamed", "M."]
     url: https://www.uni.lu/snt-en/people/mohamed-djilani/
 
-"amnir":
-  - firstname: ["Amnir", "A.", "A. H.", "Amnir Hadachi"]
+"hadachir":
+  - firstname: ["Amnir", "A."]
     url: https://kodu.ut.ee/~hadachi/HomePage.html
 
-"sherif":
-  - firstname: ["Sherif", "S.", "S. A.", "Sherif Sakr"]
+"sakr":
+  - firstname: ["Sherif", "S."]
     url: https://dl.acm.org/doi/pdf/10.1145/3436208
 
-"radwa":
-  - firstname: ["Radwa", "R.", "R. E.", "Radwa Elshawi"]
+"elshawi":
+  - firstname: ["Radwa", "R."]
     url: https://scholar.google.com/citations?hl=en&user=RD5PdpwAAAAJ&view_op=list_works&sortby=pubdate
