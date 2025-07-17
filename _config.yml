@@ -125,7 +125,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: AI Security Chronicles # blog_name will be displayed in your blog page
-blog_description: Reflections on research realted stuff and more.
+blog_description: Reflections on research related stuff and more.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -242,6 +242,19 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+
+
+nav:
+  - name: "Engagements"
+    url: /engagements/
+    children:
+      - name: "Teaching"
+        url: /engagements/teaching/
+      - name: "SciComm"
+        url: /engagements/outreach/
+      - name: "Organizations"
+        url: /engagements/organization/
+        
 
 # Plug-ins
 plugins:
