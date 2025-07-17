@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m a researcher at the [SnT research center](https://www.uni.lu/snt-en/) (University of Luxembourg), working at the intersection of AI/ML and Cybersecurity. These are two fields I care about especially as they raise some very interesting challenges in tech today. 
+Hi! I’m a researcher at the [SnT research center](https://www.uni.lu/snt-en/) (University of Luxembourg), working at the intersection of AI/ML and Cybersecurity. 
 
-My research focuses on making machine learning systems more robust, trustworthy, and secure, especially against adversarial attacks. I’m particularly interested in high-stakes domains like malware detection, fraud prevention, and offensive content moderation, where small vulnerabilities can have serious consequences. Recently, I’ve also been exploring synthetic data generation for tabular datasets.
+My research focuses on making machine learning systems more robust, trustworthy, and secure, especially against adversarial attacks. I’m particularly interested in high-stakes domains like malware detection or fraud prevention,  where small vulnerabilities can have serious consequences. Recently, I’ve also been exploring synthetic data generation for tabular datasets.
 
 If you’d like a quick overview, here’s a [5-minute pitch video](https://www.youtube.com/watch?v=AD5uB0sp4Bo) where I share the motivation behind my work, the challenges involved, and what makes this research both exciting and necessary.
 
