@@ -1,0 +1,12 @@
+- title: "Home"
+  url: "/"
+
+- title: "Engagements"
+  url: "/engagements/"
+  children:
+    - title: "Teaching"
+      url: "/engagements/teaching/"
+    - title: "SciComm"
+      url: "/engagements/outreach/"
+    - title: "Organizations"
+      url: "/engagements/organization/"
