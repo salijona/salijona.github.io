@@ -1,19 +1,22 @@
 - title: ISSTA 2025
   role: Diversity & Inclusion Chair
   description: Gained insights into inclusive practices for technical conferences, enhanced collaboration with global organizing teams.
-  image: /assets/img/events/issta2025.jpg
+  images:
+    - /assets/img/events/issta2025.jpg
   link: https://conf.researchr.org/home/issta-2025
 
 - title: Trustworthy AI Luxembourg Meetup
   role: Organizer
   description: Monthly meetup with 30+ participants focused on ethical and robust AI systems. Organized talks, discussions, and networking sessions.
-  image: /assets/img/events/trustworthy_ai.jpg
+  images:
+    - /assets/img/events/trustworthy_ai.jpg
   link: https://www.meetup.com/luxembourg-trustworthy-ai/
 
 - title: SPLC 2024
   role: Proceedings Chair
   description: Managed the end-to-end publication process, coordinated with authors and publishers for timely submission.
-  image: /assets/img/events/splc2024.jpg
+  images:
+    - /assets/img/events/splc2024.jpg
   link: https://2024.splc.net/
 
 - title: SiMLA 2024

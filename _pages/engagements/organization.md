@@ -8,15 +8,14 @@ nav: false  # typically children don't appear as top-level nav
 
 ## Conference and Event Organization
 {% for event in site.data.organization %}
-  {% assign has_link = event.link %}
-  {% if has_link %}
-  <a href="{{ event.link }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
+  {% if event.link %}
+    <a href="{{ event.link }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
   {% endif %}
-  
+
   <div class="card mb-4 shadow-sm">
     <div class="row g-0">
       <div class="col-md-4">
-        {% if event.images %}
+        {% if event.images.size > 1 %}
           <div id="carousel-{{ forloop.index }}" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               {% for img in event.images %}
@@ -35,18 +34,15 @@ nav: false  # typically children don't appear as top-level nav
             </button>
           </div>
         {% else %}
-          <img src="{{ event.image }}" class="img-fluid rounded-start" alt="{{ event.title }}">
+          <img src="{{ event.images[0] }}" class="img-fluid rounded-start" alt="{{ event.title }}">
         {% endif %}
       </div>
 
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">
-            {% if has_link %}
-              {{ event.title }} 🔗
-            {% else %}
-              {{ event.title }}
-            {% endif %}
+            {{ event.title }}
+            {% if event.link %} 🔗{% endif %}
           </h5>
           <p><strong>Role:</strong> {{ event.role }}</p>
           <p>{{ event.description }}</p>
@@ -55,7 +51,7 @@ nav: false  # typically children don't appear as top-level nav
     </div>
   </div>
 
-  {% if has_link %}
-  </a>
+  {% if event.link %}
+    </a>
   {% endif %}
 {% endfor %}
