@@ -1,6 +1,6 @@
 {% assign has_selected = false %}
 {% for entry in site.scholar.bibliography %}
-  {% if entry.selected == "true" %}
+  {% if entry.selected %}
     {% assign has_selected = true %}
     {% break %}
   {% endif %}
