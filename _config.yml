@@ -243,19 +243,6 @@ keep_files:
   - CNAME
   - .nojekyll
 
-
-nav:
-  - name: "Engagements"
-    url: /engagements/
-    children:
-      - name: "Teaching"
-        url: /engagements/teaching/
-      - name: "SciComm"
-        url: /engagements/outreach/
-      - name: "Organizations"
-        url: /engagements/organization/
-        
-
 # Plug-ins
 plugins:
   - jekyll-archives

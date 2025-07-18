@@ -1,12 +1,25 @@
-- title: "Home"
-  url: "/"
+main:
+  - title: "About"
+    url: "/about/"
 
-- title: "Engagements"
-  url: "/engagements/"
-  children:
-    - title: "Teaching"
-      url: "/engagements/teaching/"
-    - title: "SciComm"
-      url: "/engagements/outreach/"
-    - title: "Organizations"
-      url: "/engagements/organization/"
+  - title: "Publications"
+    url: "/publications/"
+
+    
+  - title: "Blog"
+    url: "/blog/"
+
+  
+  - title: "projects"
+    url: "/projects/"
+
+
+  - title: "Engagements"
+    children:
+      - title: "SciComm"
+        url: "/engagements/outreach/"
+      - title: "Organization"
+        url: "/engagements/organization/"
+      - title: "Teaching"
+        url: "/engagements/teaching/"
+        
