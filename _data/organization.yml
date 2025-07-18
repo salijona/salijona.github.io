@@ -1,21 +1,26 @@
 - title: ISSTA 2025
   role: Diversity & Inclusion Chair
-  learnings: Gained insights into inclusive practices for technical conferences, enhanced collaboration with global organizing teams.
+  description: Gained insights into inclusive practices for technical conferences, enhanced collaboration with global organizing teams.
   image: /assets/img/events/issta2025.jpg
-
-- title: SPLC 2024
-  role: Proceedings Chair
-  learnings: Managed the end-to-end publication process, coordinated with authors and publishers for timely submission.
-  image: /assets/img/events/splc2024.jpg
-
-- title: SiMLA 2024
-  role: Publicity & Workshop Chair
-  learnings: Led social media campaigns and organized hands-on tutorial sessions.
-  images:
-    - /assets/img/events/simla1.jpg
-    - /assets/img/events/simla2.jpg
+  link: https://conf.researchr.org/home/issta-2025
 
 - title: Trustworthy AI Luxembourg Meetup
   role: Organizer
-  learnings: Monthly meetup with 30+ participants focused on ethical and robust AI systems. Organized talks, discussions, and networking sessions.
+  description: Monthly meetup with 30+ participants focused on ethical and robust AI systems. Organized talks, discussions, and networking sessions.
   image: /assets/img/events/trustworthy_ai.jpg
+  link: https://www.meetup.com/luxembourg-trustworthy-ai/
+
+- title: SPLC 2024
+  role: Proceedings Chair
+  description: Managed the end-to-end publication process, coordinated with authors and publishers for timely submission.
+  image: /assets/img/events/splc2024.jpg
+  link: https://2024.splc.net/
+
+- title: SiMLA 2024
+  role: Publicity & Workshop Chair
+  description: Led social media campaigns and organized hands-on tutorial sessions.
+  images:
+    - /assets/img/events/simla1.jpg
+    - /assets/img/events/simla2.jpg
+  link: https://simla-workshop.github.io/Simla2024/
+
