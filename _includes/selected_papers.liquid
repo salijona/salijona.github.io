@@ -1,15 +1,1 @@
-{% assign has_selected = false %}
-{% for entry in site.scholar.bibliography %}
-  {% if entry.selected %}
-    {% assign has_selected = true %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if has_selected %}
-  <div class="publications">
-    {% bibliography --query '@*[selected=true]' --sort-by year --order descending %}
-  </div>
-{% else %}
-  <p>No selected publications yet.</p>
-{% endif %}
+{% bibliography --group_by year --order descending --query @*[selected=true]* %}
