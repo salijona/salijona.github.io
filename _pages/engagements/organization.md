@@ -8,9 +8,9 @@ nav: false  # typically children don't appear as top-level nav
 
 ## Conference and Event Organization
 {% for event in site.data.organization %}
-  {% if event.link %}
+  <!-- {% if event.link %}
     <a href="{{ event.link }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-reset">
-  {% endif %}
+  {% endif %} -->
 
   <div class="card mb-4 shadow-sm">
     <div class="row g-0">
