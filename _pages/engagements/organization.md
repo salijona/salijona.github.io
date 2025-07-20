@@ -12,23 +12,23 @@ nav: false  # typically children don't appear as top-level nav
     <div class="row g-0">
       <div class="col-md-4">
         {% if event.images.size > 1 %}
-          <div id="carousel-{{ forloop.index }}" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              {% for img in event.images %}
-                <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                  <img src="{{ img }}" class="d-block w-100" alt="Slide {{ forloop.index }}">
-                </div>
-              {% endfor %}
+        <div id="carousel-{{ forloop.index }}" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {% for img in event.images %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <img src="{{ img }}" class="d-block w-100" alt="Slide {{ forloop.index }}">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ forloop.index }}" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ forloop.index }}" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ forloop.index }}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ forloop.index }}" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
         {% else %}
           <img src="{{ event.images[0] }}" class="img-fluid rounded-start" alt="{{ event.title }}">
         {% endif %}
