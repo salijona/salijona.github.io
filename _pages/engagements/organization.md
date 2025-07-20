@@ -41,8 +41,13 @@ nav: false  # typically children don't appear as top-level nav
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">
-            {{ event.title }}
-            {% if event.link %} 🔗{% endif %}
+            {% if event.link %}
+              <a href="{{ event.link }}" target="_blank" rel="noopener noreferrer" class="stretched-link text-decoration-none text-reset">
+                {{ event.title }} 🔗
+              </a>
+            {% else %}
+              {{ event.title }}
+            {% endif %}
           </h5>
           <p><strong>Role:</strong> {{ event.role }}</p>
           <p>{{ event.description }}</p>
