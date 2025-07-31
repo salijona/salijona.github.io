@@ -124,8 +124,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: AI Security Chronicles # blog_name will be displayed in your blog page
-blog_description: Reflections on research related stuff and more.
+blog_name: Chronicles # blog_name will be displayed in your blog page
+blog_description: Reflections on AI Security research and other unrelated stuff.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
