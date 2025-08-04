@@ -163,7 +163,6 @@ external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
   - name: Letters to a Young Scientist (Milos Ojdanic)
-    rss_url: https://www.backpropagate.me/
     posts:
       - url: https://www.backpropagate.me/p/tell-me-a-story-1-reflections-after-five-years-in-academia-58fc271159612834
         published_date: 2025-08-01
