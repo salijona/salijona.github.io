@@ -162,7 +162,8 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
-  - name: Letter to Young Scientists (Milos Ojdanic)
+  - name: Letters to a Young Scientist (Milos Ojdanic)
+    rss_url: https://www.backpropagate.me/
     posts:
       - url: https://www.backpropagate.me/p/tell-me-a-story-1-reflections-after-five-years-in-academia-58fc271159612834
         published_date: 2025-08-01
@@ -296,8 +297,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
