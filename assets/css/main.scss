@@ -23,3 +23,15 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.slider-image-container {
+  height: 250px; // Adjust this to taste
+  overflow: hidden;
+}
+
+.slider-image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

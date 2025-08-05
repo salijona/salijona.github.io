@@ -23,13 +23,17 @@ nav: false  # typically children don't appear as top-level nav
                             class="mb-3">
             {% for img in event.images %}
               <swiper-slide>
-                {% include figure.liquid path=img class="img-fluid rounded z-depth-1" %}
+                <div class="slider-image-container">
+                  {% include figure.liquid path=img class="img-fluid rounded z-depth-1" %}
+                </div>
               </swiper-slide>
             {% endfor %}
           </swiper-container>
         {% else %}
           {% assign img_path = event.images[0] %}
-          {% include figure.liquid path=img_path class="img-fluid rounded-start w-100" %}
+          <div class="slider-image-container">
+            {% include figure.liquid path=img_path class="img-fluid rounded-start w-100" %}
+          </div>
         {% endif %}
       </div>
 
