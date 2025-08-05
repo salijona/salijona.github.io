@@ -2,6 +2,8 @@
 title: "Organizations"
 permalink: /engagements/organization/
 layout: page
+images:
+  slider: true
 nav: false  # typically children don't appear as top-level nav
 ---
 
