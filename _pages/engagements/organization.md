@@ -26,7 +26,8 @@ nav: false  # typically children don't appear as top-level nav
             {% endfor %}
           </swiper-container>
         {% else %}
-          {% include figure.liquid path=event.images[0] class="img-fluid rounded-start w-100" %}
+          {% assign img_path = event.images[0] %}
+          {% include figure.liquid path=img_path class="img-fluid rounded-start w-100" %}
         {% endif %}
       </div>
 
