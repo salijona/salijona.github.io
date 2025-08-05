@@ -25,13 +25,13 @@ $max-content-width: {{ site.max_width }};
 ;
 
 .slider-image-container {
-  height: 200px; // Adjust this to taste
+  height: 200px; /* Fixed height */
   overflow: hidden;
 }
 
 .slider-image-container img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center center; /* <--- This makes cropping central */
 }
