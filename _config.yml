@@ -102,9 +102,9 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  If you want to contact me, please use the email address above for professional inquiries or reach out to me on
-  <a href="https://www.linkedin.com/in/salijona-dyrmishi-09089385" target="_blank">LinkedIn</a>.
+# contact_note: >
+#   If you want to contact me, please use the email address above for professional inquiries or reach out to me on
+#   <a href="https://www.linkedin.com/in/salijona-dyrmishi-09089385" target="_blank">LinkedIn</a>.
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
