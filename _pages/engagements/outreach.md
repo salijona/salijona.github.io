@@ -48,7 +48,6 @@ nav: false  # typically children don't appear as top-level nav
               {{ event.title }}
             {% endif %}
           </h5>
-          <p><strong>Role:</strong> {{ event.role }}</p>
           <p>{{ event.description }}</p>
         </div>
       </div>

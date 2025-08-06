@@ -10,10 +10,6 @@ main:
     url: "/blog/"
 
   
-  - title: "projects"
-    url: "/projects/"
-
-
   - title: "Engagements"
     children:
       - title: "SciComm"
