@@ -61,9 +61,9 @@ Looking at these outcomes, it’s easy to see the next step. First, a model trai
 
 The stakes of ignoring realism in adversarial hardening are high. A model that seems robust in the lab may still fail catastrophically when faced with real-world attacks, leaving organizations vulnerable to malware, spam campaigns, or network intrusions. Overconfidence in lab-tested models can lead to wasted resources, false security, and even regulatory or reputational consequences if attacks succeed. By focusing on realistic adversarial examples, even a small carefully curated set, we can guide cheaper, simpler attacks toward the model’s true weaknesses, ensuring that hardening translates into real-world resilience. In short, as we emphasized realism in testing, we must demand it in hardening.  
 
-### A note on scope and generalization:
+**A note on scope and generalization:**
 
-When presenting results by domain (text classification, botnet detection, and malware detection), we used a fixed model architecture, a fixed hardening strategy, and a fixed feature representation for each domain. As a result, the findings within each domain may not generalize to other architectures, hardening methods, or feature sets. Future work could explore more expansive settings, similar to the approach taken by Bostani et al. in *“On the Effectiveness of Adversarial Training on Malware Classifiers.”*
+When presenting results by domain (text classification, botnet detection, and malware detection), we used a fixed model architecture, a fixed hardening strategy, and a fixed feature representation for each domain. As a result, the findings within each domain may not generalize to other architectures, hardening methods, or feature sets. Future work could explore more expansive settings, similar to the approach taken by Bostani et al. in _[On the Effectiveness of Adversarial Training on Malware Classifiers](https://arxiv.org/abs/2412.18218)_.
 
 ---
 
