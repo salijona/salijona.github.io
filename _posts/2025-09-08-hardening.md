@@ -16,11 +16,16 @@ Hardening means repeatedly exposing your model to attacks and forcing it to adap
 
 In the figure below, left side shows a malware detector identifying malware files. We then create adversarial examples, shown as the two files with arrows, that exploit weaknesses in the model’s decision boundary. In right side, the model has been retrained using these adversarial samples, which updates the decision boundary. The model can now correctly detect the files that previously slipped through. While the figure uses only two examples for illustration, in practice retraining would involve thousands or even hundreds of thousands of samples to make the model significantly more robust.  
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="assets/img/series/unhardened_model.png" alt="Unhardened model" style="width:45%;">
-  <img src="assets/img/series/hardened_model.png" alt="Hardened model" style="width:45%;">
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid path="assets/img/series/unhardened_model.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
+    <p><em>Before adversarial hardening</em></p>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid path="assets/img/series/hardened_model.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
+    <p><em>After retraining on adversarial examples</em></p>
+  </div>
 </div>
-<p><em>Figure: (Left) A malware detector before adversarial hardening. (Right) After retraining on adversarial examples.</em></p>
 
 *Figure: (Left) A malware detector before adversarial hardening. (Right) The same model after retraining on adversarial examples, updating its decision boundary to correctly detect previously missed files.*
 
@@ -35,13 +40,20 @@ Consider the malware detector above. An unrealistic attack might modify a malici
 Generating unrealistic attacks is fast and inexpensive because they can be created without worrying about whether the file will execute. Crafting realistic attacks, by contrast, is far more costly in both computation and engineering effort. Modifying malware to evade detection requires carefully changing executable files without breaking them and testing them in a specialized sandbox to ensure they still carry out their malicious purpose (e.g., asking for ransom). This process can take tens of thousands of times longer than simply altering a few bytes at random, which can take days or even weeks. If unrealistic examples can expose the same weak points in the model’s decision boundary as realistic attacks, they could serve as effective stand-ins, potentially saving substantial time and resources in the hardening process.  
 
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="assets/img/series/unrealistic_example.png" alt="Unrealistic example" style="width:45%;">
-  <img src="assets/img/series/realistic_example.png" alt="Realistic example" style="width:45%;">
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid path="assets/img/series/unrealistic_example.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
+    <p><em>Unrealistic example (malicious file that does not execute)</em></p>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid path="assets/img/series/realistic_example.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
+    <p><em>Realistic example (infects computer and asks for ransom)</em></p>
+  </div>
 </div>
 
-<p><em>Figure: Adversarial examples used to harden the model. (Left) A malicious file that does not execute. (Right) A malicious file that infects the computer and asks for ransom.</em></p>
-
+<p class="text-center mt-2">
+  <em>Figure: Adversarial examples used to harden the model.</em>
+</p>
 
 We hoped that unrealistic attacks could help harden models against real-world threats, so we tested the impact of unrealistic attacks alongside realistic ones across three distinct domains: text classification, botnet detection, and malware detection, each presenting unique challenges.  
 
