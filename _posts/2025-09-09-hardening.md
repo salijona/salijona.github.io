@@ -27,7 +27,10 @@ In the figure below, left side shows a malware detector identifying malware file
   </div>
 </div>
 
-*Figure: A malware detector predicting Windows binary files as being malicious or not*
+<p class="text-center mt-2">
+  <em>Figure: A malware detector predicting Windows binary files as being malicious or not</em>
+</p>
+
 
 
 
