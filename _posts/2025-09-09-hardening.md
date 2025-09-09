@@ -2,7 +2,7 @@
 layout: post
 title: "3. From Testing to Defenses: When Realistic Attacks Help"
 subtitle: "Finding the attacks that teach models to defend themselves."
-date: 2025-09-08
+date: 2025-09-09
 description: "Finding the attacks that teach models to defend themselves."
 tags: [adversarial machine learning, adversarial attacks, AI/ML security]
 categories: research
@@ -19,15 +19,15 @@ In the figure below, left side shows a malware detector identifying malware file
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid path="assets/img/series/unhardened_model.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
-    <p><em>Before adversarial hardening</em></p>
+    <p><em>Decision bounadary before adversarial hardening</em></p>
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid path="assets/img/series/hardened_model.png" class="img-fluid rounded z-depth-1" width="90%" zoomable=true %}
-    <p><em>After retraining on adversarial examples</em></p>
+    <p><em>Updated decision boundary after retraining on adversarial examples</em></p>
   </div>
 </div>
 
-*Figure: (Left) A malware detector before adversarial hardening. (Right) The same model after retraining on adversarial examples, updating its decision boundary to correctly detect previously missed files.*
+*Figure: A malware detector predicting Windows binary files as being malicious or not*
 
 
 
